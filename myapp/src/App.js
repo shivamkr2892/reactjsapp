@@ -7,7 +7,7 @@ import Contact from './Contact.js';
 import Services from './Services.js';
 import About from './About.js';
 import Home from './Home.js';
- 
+  
 export const UserContext = createContext();
 
 const App = () => {
@@ -15,10 +15,6 @@ const App = () => {
   const [number, setNumber] = useState(0);
 
   const [decrement, setDecrement] = useState(10);
-
-  // useEffect(()=>{
-  //   console.log("useeffect is working.....");
-  // },[number]);
      
   return (
     <UserContext.Provider value={{val1:number,val2:decrement}}>

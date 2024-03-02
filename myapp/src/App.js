@@ -31,7 +31,7 @@ const App = () => {
       <button onClick={()=>setDecrement(decrement-1)}>Decrement</button>
       <h1>{number}</h1>
       <h1>{decrement}</h1>    */}
-        {/* <Child /> */}
+        {/* <Child /> */} 
     </UserContext.Provider>
   );
 };

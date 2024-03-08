@@ -33,11 +33,7 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
-      {/* <button onClick={()=>setNumber(number+1)}>Increment</button>
-      <button onClick={()=>setDecrement(decrement-1)}>Decrement</button>
-      <h1>{number}</h1>
-      <h1>{decrement}</h1>    */}
-        {/* <Home /> */}
+
         <br />
     </UserContext.Provider>
   );

@@ -19,7 +19,9 @@ const App = () => {
 
   function getAlert(param)
   {
-    alert(param);
+	// get alert
+	  alert(param);
+	  
   }
   return (
     <UserContext.Provider value={{val1:number,val2:decrement}}>

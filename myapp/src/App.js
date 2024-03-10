@@ -7,7 +7,6 @@ import Contact from './Contact.js';
 import Services from './Services.js';
 import About from './About.js';
 import Home from './Home.js';
-import Products from './Products.js';
  
 export const UserContext = createContext();
 

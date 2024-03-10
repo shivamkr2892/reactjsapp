@@ -8,7 +8,7 @@ const Counter = ({ countt, increment, decrement }) => {
       <h2>Counter: {countt}</h2>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
-    </div> 
+    </div>
   );
 };
 
